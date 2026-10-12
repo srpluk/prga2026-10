@@ -5,7 +5,7 @@
 import math
 import time
 
-pocet = 9
+pocet = int(input("Kolik má být počet? "))
 
 for i in range(pocet):
     print(" " * i + "O")
